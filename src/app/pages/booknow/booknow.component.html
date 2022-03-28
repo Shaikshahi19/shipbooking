@@ -1,0 +1,17 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let fd of bookingData">
+
+            <div class="cruisebox mt-3 mb-3">
+                <img src="{{fd.cruiseImg}}">
+
+                <h1>{{fd.cruiseName}}</h1>
+                <p>{{fd.cruiseDetails}}</p>
+                <p>{{fd.cruisePrice | currency:'INR'}}</p>
+                <br/>
+                <a class="paybtn" [routerLink]="['/booking',fd.id]">pay & hold &nbsp;<i class="bi bi-credit-card-2-back"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

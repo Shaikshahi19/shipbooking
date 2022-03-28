@@ -1,0 +1,31 @@
+.cruisebox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.cruisebox{
+    padding: 10px 10px;
+}
+.cruisebox img{
+
+    width: 110%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+
+}
+.cruisebox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.paybtn{
+    
+    color: #000;
+    background-color:  var(--primary-color);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}

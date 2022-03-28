@@ -1,0 +1,55 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5">Ocean Ways</h1>
+        <h2>PEARL OF THE INDIAN OCEAN</h2>
+        <a routerLink="booknow"> BOOK NOW <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<!--step-->
+<div class="container mt-6 mb-6">
+    <h1 class="text-center">India Cruise Tour Packages</h1>
+    <h2>Make the journey  onboard Cordelia Cruises as beautiful as the destination. Choose from our 3 wonderfully exciting and
+        plan an unforgettable holiday.</h2>
+    <div class="row mt-5">
+        <!--one-->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+            <h1>1</h1>
+            <p>select cruise</p>
+            </div>
+        </div>
+        <!--two-->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>2</h1>
+                <p>fill the details</p>
+            </div>
+        </div>
+        <!--three-->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>3</h1>
+                <p>your booking details</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--cruisebox-->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Coutomers Favouites Places </h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of cruiseData;index as i">
+            <div class="cruisebox" *ngIf="i<=3">
+                <img src="{{fd.cruiseImg}}" />
+                <h1>
+                    {{fd.cruiseName}}
+                </h1>
+                <p>{{fd.cruisePrice | currency:'INR'}}</p>
+            </div>
+
+        </div>
+    </div>
+    <a routerLink="booknow" class="viewmorebtn">View More <i class="bi bi-arrow-right"></i></a>
+</div>

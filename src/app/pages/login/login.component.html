@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 style="font-weight: bold; font-family: redrose; color: #000;"> Login</h1>
+                    <h6 style="font-weight: bold; font-family: redrose; color: #000;"> please enter email & password !!</h6>
+                </div>
+                
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Enter your Email address">
+                          <small style="color: green" id="emailHelp" class="form-text">We'll never share your email with anyone else.</small><br>
+                          <span class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')"> *Email Id is required </span>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password:</label>
+                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder=" Enter your password">
+                          <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')"> *password is required </span>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">Login</button>
+                      </form>
+                      <a style="color: #000; margin-top: 10px;"  routerLink="/signup"> New User? Click to SignUp!!</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

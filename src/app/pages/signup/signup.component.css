@@ -1,0 +1,34 @@
+.card{
+    width: 900px;
+    padding: 80px;
+    margin: 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #0F1C5C 0%, rgba(255, 255, 255, 0) 100%);
+    border: 3px solid #01010A;
+}
+
+
+
+
+.container{
+    width: 512px;
+    height: 411px;
+    left: 834px;
+    top: 41px;
+    }
+.row{
+    width: 902px;
+    height: 432px;
+    left: 122px;
+    top: 184px;
+    
+    
+    box-sizing: border-box;
+    }
+.login{
+        color: #fff;
+    }
+   

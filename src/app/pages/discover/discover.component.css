@@ -1,0 +1,44 @@
+
+*{
+    margin: 48px 110px;
+    padding: 0px 12px;
+   background-color: black;
+}
+.about{
+    width: 831px;
+height: 224px;
+left: 101px;
+top: 169px;
+
+font-family: 'Galdeano';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 67px;
+
+color: #FFFFFF;
+background: linear-gradient(180deg, #1430C2 0%, rgba(14, 1, 12, 0) 100%);
+
+}
+.discover{
+    width: 956px;
+height: 456px;
+left: 101px;
+top: 418px;
+
+font-family: 'Iceberg';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+font-weight: bold;
+background: linear-gradient(180deg, #1430C2 0%, rgba(14, 1, 12, 0) 100%);
+background-attachment: fixed;
+height: 500px; 
+background-position: right; 
+background-repeat: no-repeat; 
+background-size: cover; 
+background-image:url(../../../assets/img/discoverimg.jpg);
+}

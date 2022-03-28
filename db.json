@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullname": "",
+      "mobile": "",
+      "date": "",
+      "passengers": "",
+      "destination": "",
+      "payment": "",
+      "id": 2
+    },
+    {
+      "fullname": "",
+      "mobile": "",
+      "date": "",
+      "passengers": "",
+      "destination": "",
+      "payment": "",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "number": "",
+      "id": 3
+    },
+    {
+      "fullname": "shah hgjh",
+      "email": "",
+      "password": "shahi",
+      "number": "",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
